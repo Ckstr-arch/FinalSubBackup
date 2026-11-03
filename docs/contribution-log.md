@@ -1,6 +1,6 @@
 # Contribution log · actual work and learning evidence
 
-Use this register alongside the [ordered build and contribution guide](build-order-and-contributions.md) and the [eight-member team plan](eight-member-plan.md). It starts unfilled: **no member, task, date, test result, commit or review is assigned or completed by this document**. Fill a row only after the work actually happens.
+Use this register alongside the [ordered build and contribution guide](build-order-and-contributions.md) and the [eight-member team plan](eight-member-plan.md). H (API/authentication/security) is the requester’s chosen responsibility. **Activity evidence remains unfilled: no implementation, test result, contribution commit or review is claimed as completed by this document.** Fill activity rows only after real work happens.
 
 ## Baseline and assistance
 
@@ -12,7 +12,7 @@ Real review, debugging, testing, design or documentation can be a contribution i
 
 ## Team responsibility agreement · humans fill this
 
-The actual team has **eight students**. The **four learning tracks describe areas of work, not the number of students**. Two people per stage is a proposed way to share implementation and review; no pairing or role is accepted until the real team agrees and fills these fields.
+The actual team has **eight students**. The **four learning tracks describe areas of work, not the number of students**. Two people per stage is a proposed way to share implementation and review. H is explicitly chosen by the requester; the other pairings/accepted roles remain to be agreed and filled.
 
 | Person | Own GitHub handle | Accepted stage/task boundary | Shared-file reviewer |
 |---|---|---|---|
@@ -23,9 +23,9 @@ The actual team has **eight students**. The **four learning tracks describe area
 | Member E — TBD | TODO | TODO | TODO |
 | Member F — TBD | TODO | TODO | TODO |
 | Member G — TBD | TODO | TODO | TODO |
-| Member H — TBD | TODO | TODO | TODO |
+| Member H — requester; name TODO | TODO | H — API/authentication/security (chosen); actual task/evidence TODO | TODO |
 
-These eight slots are placeholders, not confirmed names, GitHub handles, pairings, assigned roles or authorship. Keep identities and accepted responsibilities TODO until the students confirm them; do not infer the roster from a poll or screenshot.
+The eight slots do not identify real names or GitHub handles. H records only the requester’s stated role choice; A–G and pairings remain proposed. Keep identity, reviewer and work evidence TODO until confirmed; a chosen role does not establish completed work or baseline authorship.
 
 ## Shared activity register · add one row per real task
 

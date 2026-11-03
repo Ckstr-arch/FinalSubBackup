@@ -2,13 +2,13 @@
 
 The team has **eight students**. The four stages are work/learning tracks, so a practical arrangement is **two people per stage**. Give each person their own bounded task, own branch and own evidence, with their partner reviewing the work. The pair shares a feature outcome, not a fabricated joint claim to baseline authorship.
 
-Names, GitHub handles and accepted assignments are intentionally unfilled in the [contribution log](contribution-log.md). A preference poll can show overlapping interests; several votes by one person do not create extra team members or establish accepted responsibilities. Agree one primary task per person and record secondary reviews separately.
+The requester has chosen **H — API, authentication and security**. Real names/GitHub handles, other accepted assignments and completed-work evidence remain unfilled in the [contribution log](contribution-log.md). Start with the [short A–H guide](start-finish-guide.md). A preference poll can show overlapping interests; several votes by one person do not create extra team members or establish accepted responsibilities. Agree one primary task per person and record secondary reviews separately.
 
 [Detailed build sequence](build-order-and-contributions.md) · [Contribution log](contribution-log.md) · [Setup](../README.md) · [Report/video](report-and-video.md)
 
 ## 1. Proposed eight-person split
 
-**A–H are eight planning slots, not real assigned identities or claims of completed work.** Match them to actual people after the team agrees.
+**A–G remain proposed slots; H is the requester’s confirmed choice.** Real names/handles still need to be entered. A chosen responsibility is not a claim of completed work or original baseline authorship.
 
 | Slot | Track | Primary responsibility | Main source sections | Own evidence |
 |---|---|---|---|---|
@@ -19,7 +19,7 @@ Names, GitHub handles and accepted assignments are intentionally unfilled in the
 | E | Stage 03: admin | Admin management/approval/report views and validation feedback | Admin branches of `app/views.php` and `app/portal-views.php` | Own admin UI change and tests of valid/invalid/future/past states as applicable |
 | F | Stage 03: admin | Admin CRUD/decision/result rules and report/audit checks | Admin actions, `save_entity()`/`review_request()`, relevant queries/tests | Own scoped service/test investigation or fix, including role refusal and data impact |
 | G | Stage 04: backend/database | Relational schema, data dictionary, migration/seed safety and query review | `database/`, `bin/migrate.php`, `seed.php`, `app/bootstrap.php` PDO/query sections | Own verified schema/query documentation or reviewed migration/test change; no invented original schema authorship |
-| H | Stage 04: backend/API | Authentication/security, REST contract and API integration/verification | `app/security.php`, API/auth sections of `app/actions.php`, `app/api.php`, `public/api.php`, API generator/tests | Own scoped auth/API/test work and evidence; coordinate with the affected UI owner |
+| H — chosen by requester | Stage 04: backend/API | Authentication/security, REST contract and API integration/verification | `app/security.php`, API/auth sections of `app/actions.php`, `app/api.php`, `public/api.php`, API generator/tests | Own scoped auth/API/test work and evidence; coordinate with the affected UI owner |
 
 This preserves work for frontend, backend, database and API interests. Database/API knowledge should be reviewed across tracks: D and F need G/H review for SQL/security, and A/B/C/E review the resulting browser behavior. Do not create a separate production application or database for each slot. Each developer may run their own private local development installation of the one canonical application.
 
