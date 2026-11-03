@@ -1,12 +1,12 @@
 # Build order and genuine team contributions
 
-This is a practical route through **FinalSubBackup**, for a team working toward a deadline. The four stages describe responsibility and learning; they can overlap. The existing working application is a **Codex-assisted baseline**. Use it as a reference, preserve its working features, and record what each person actually studies, changes, tests and reviews.
+This is a practical route through **FinalSubBackup**, for a team working toward a deadline. The team has eight students. The four stages describe responsibility and learning; use two people per stage with separate tasks, and let the tracks overlap. The existing working application is a **Codex-assisted baseline**. Use it as a reference, preserve its working features, and record what each person actually studies, changes, tests and reviews.
 
 Source inspected: commit `b01fc8b`, on **3 November 2026 (Asia/Colombo)**. Existing behavior and proposed gaps below refer to that baseline; check the current branch before selecting a task.
 
 You can reuse baseline code with its provenance and assistance disclosed under your course policy. Copying an unchanged module does not establish new implementation or independent authorship. A useful reviewed fix, a meaningful test, a verified investigation or an explanation in your own words can produce real evidence. The lecturer determines what meets the assessment's originality and contribution requirements.
 
-[Start / setup](../README.md) · [Architecture](architecture.md) · [API contract](api.md) · [Contribution log template](contribution-log.md) · [Assignment requirements](requirements-traceability.md)
+[Start / setup](../README.md) · [Architecture](architecture.md) · [API contract](api.md) · [Contribution log template](contribution-log.md) · [Eight-member plan](eight-member-plan.md) · [Assignment requirements](requirements-traceability.md)
 
 ## 1. The order everyone should follow
 
@@ -204,7 +204,7 @@ sequenceDiagram
 
 ## 7. Shared-file and two-group working agreement
 
-If your team uses two frontend members and two backend/database members, agree actual tasks before touching shared files:
+For the eight-person team, use the [proposed two-person track split](eight-member-plan.md) and agree actual tasks before touching shared files. Frontend and backend/database interests can overlap; every person still needs one primary responsibility and a reviewer:
 
 | Area | Presentation lead | Service/data reviewer |
 |---|---|---|

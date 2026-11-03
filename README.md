@@ -233,7 +233,7 @@ The recipe was verified with Docker Engine on Linux: fresh MySQL startup, PHP re
 
 ## Team build order and contribution evidence
 
-Follow the [step-by-step guide for all four stages](docs/build-order-and-contributions.md): HTML structure → CSS → UI JavaScript → PHP templates/data → protected native forms → REST enhancement. Frontend and backend tracks work in parallel around one complete membership journey. Record each person’s genuine work in the [contribution log template](docs/contribution-log.md), keeping the existing assisted application credited as baseline.
+For the eight-student team, start with the [two-person-per-stage plan](docs/eight-member-plan.md). Follow the [step-by-step guide for all four stages](docs/build-order-and-contributions.md): HTML structure → CSS → UI JavaScript → PHP templates/data → protected native forms → REST enhancement. Frontend and backend tracks work in parallel around one complete membership journey. Record each person’s genuine work in the [contribution log template](docs/contribution-log.md), keeping the existing assisted application credited as baseline.
 
 ## Included capabilities
 

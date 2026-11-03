@@ -1,16 +1,18 @@
 # Contribution log · actual work and learning evidence
 
-Use this register alongside the [ordered build and contribution guide](build-order-and-contributions.md). It starts unfilled: **no member, task, date, test result, commit or review is assigned or completed by this document**. Fill a row only after the work actually happens.
+Use this register alongside the [ordered build and contribution guide](build-order-and-contributions.md) and the [eight-member team plan](eight-member-plan.md). It starts unfilled: **no member, task, date, test result, commit or review is assigned or completed by this document**. Fill a row only after the work actually happens.
 
 ## Baseline and assistance
 
 This repository contains a **Codex-assisted existing prototype**. It was exported from `Ckstr-arch/TestENV`'s `backup/` at source commit `b2df1bd73415aa4a62e13b3a2bf903baeddc09a9`; its underlying runtime baseline was `f81eab54ebe7179e1763f364d6b8d4f564c36541`. See [guidelines/provenance](guidelines-audit.md), [architecture](architecture.md) and [report guidance](report-and-video.md).
 
-Reusing the baseline can preserve a working application, but does not make a teammate its original author. Copying an existing module unchanged into the same tracked path creates **no new Git diff**. Copying it to another folder creates duplicate files, not evidence of new implementation; keep one canonical runtime. Do not manufacture four cosmetic commits or claim old modules as independently developed.
+Reusing the baseline can preserve a working application, but does not make a teammate its original author. Copying an existing module unchanged into the same tracked path creates **no new Git diff**. Copying it to another folder creates duplicate files, not evidence of new implementation; keep one canonical runtime. Do not manufacture cosmetic commits or claim old modules as independently developed.
 
 Real review, debugging, testing, design or documentation can be a contribution if actually performed, evidenced and accepted by the lecturer's policy. Record your own observations and reasoning; copying a generated explanation and signing it is not evidence of understanding. Disclose existing code and AI/peer assistance under the module's originality policy. Ask the lecturer about permitted reuse if unclear; this log cannot guarantee assessment credit.
 
 ## Team responsibility agreement · humans fill this
+
+The actual team has **eight students**. The **four learning tracks describe areas of work, not the number of students**. Two people per stage is a proposed way to share implementation and review; no pairing or role is accepted until the real team agrees and fills these fields.
 
 | Person | Own GitHub handle | Accepted stage/task boundary | Shared-file reviewer |
 |---|---|---|---|
@@ -18,8 +20,12 @@ Real review, debugging, testing, design or documentation can be a contribution i
 | Member B — TBD | TODO | TODO | TODO |
 | Member C — TBD | TODO | TODO | TODO |
 | Member D — TBD | TODO | TODO | TODO |
+| Member E — TBD | TODO | TODO | TODO |
+| Member F — TBD | TODO | TODO | TODO |
+| Member G — TBD | TODO | TODO | TODO |
+| Member H — TBD | TODO | TODO | TODO |
 
-These are placeholders, not assigned roles or authorship. Adjust the roster honestly if the actual team size differs.
+These eight slots are placeholders, not confirmed names, GitHub handles, pairings, assigned roles or authorship. Keep identities and accepted responsibilities TODO until the students confirm them; do not infer the roster from a poll or screenshot.
 
 ## Shared activity register · add one row per real task
 

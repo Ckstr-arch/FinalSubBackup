@@ -22,7 +22,9 @@ Include security mechanisms and their limits: opt-in 2FA, no email verification/
 
 ## Authorship and contribution record
 
-The initial working application is a **Codex-assisted baseline** with inspiration/assets supplied earlier by teammates. Reading a generated guide, receiving a stage label or having a name in a table does not establish authorship of old modules. Do not claim four students independently developed the existing prototype. Disclose assistance following the course's originality/AI policy and ask the lecturer if its permitted scope is unclear.
+The team has eight students. Use the [eight-slot contribution log](contribution-log.md) and [proposed pair plan](eight-member-plan.md); fill actual names, accepted roles and individual evidence after agreement.
+
+The initial working application is a **Codex-assisted baseline** with inspiration/assets supplied earlier by teammates. Reading a generated guide, receiving a stage label or having a name in a table does not establish authorship of old modules. The eight-person team should distinguish its genuine new contributions from the pre-existing prototype rather than claiming independent authorship of baseline modules. Disclose assistance following the course's originality/AI policy and ask the lecturer if its permitted scope is unclear.
 
 | Real member/handle | Actual task and changed paths | Genuine commits/PR/review | Tests/explanation personally performed | Assistance disclosure |
 |---|---|---|---|---|
