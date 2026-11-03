@@ -231,6 +231,10 @@ Do not delete volumes or run a global Docker prune to update this application. T
 
 The recipe was verified with Docker Engine on Linux: fresh MySQL startup, PHP readiness/security checks, Apache/API access, and retained data after stop/start/restart. Docker Desktop installation was not executed on macOS or Windows in that verification.
 
+## Team build order and contribution evidence
+
+Follow the [step-by-step guide for all four stages](docs/build-order-and-contributions.md): HTML structure → CSS → UI JavaScript → PHP templates/data → protected native forms → REST enhancement. Frontend and backend tracks work in parallel around one complete membership journey. Record each person’s genuine work in the [contribution log template](docs/contribution-log.md), keeping the existing assisted application credited as baseline.
+
 ## Included capabilities
 
 - Student registration/login, server-enforced student/admin access and optional TOTP 2FA with single-use recovery codes.
