@@ -4,6 +4,8 @@ This repository is a self-contained edition of the existing NSBM SportsHub proto
 
 The application lives directly at this repository root; there is no nested `backup/` directory to enter. It was exported from `Ckstr-arch/TestENV`'s `backup/` at source commit `b2df1bd73415aa4a62e13b3a2bf903baeddc09a9`, retaining the Codex-assisted prototype as its baseline. It does not load that repository's source, private settings, database or sessions. Exporting the package does not transfer authorship to individual students.
 
+Learning before development? Start with **[learn/00-start-here.md](learn/00-start-here.md)**, then follow [the five-stage learning guide](learn/README.md). It includes an independent study route, real source explanations, exercises and official resources.
+
 ## Start here
 
 Clone this standalone repository, then work from its root:
@@ -232,6 +234,8 @@ Do not delete volumes or run a global Docker prune to update this application. T
 The recipe was verified with Docker Engine on Linux: fresh MySQL startup, PHP readiness/security checks, Apache/API access, and retained data after stop/start/restart. Docker Desktop installation was not executed on macOS or Windows in that verification.
 
 ## Team build order and contribution evidence
+
+For detailed learning, open **[learn/ — all five stages](learn/README.md)**: frontend/UX, student experience, admin operations, backend/database/security, and assembly/deployment. Begin with [Start here](learn/00-start-here.md), or follow the [solo path](learn/solo-path.md) if you need to make progress independently. The package includes source walkthroughs, diagrams, exercises, checkpoints and official resources tied to this version.
 
 For the eight-student team, start with the [short A–H start/finish guide](docs/start-finish-guide.md); H (API/authentication/security) is the requester’s chosen part. Use the [two-person-per-stage plan](docs/eight-member-plan.md) for the full responsibility split. Follow the [step-by-step guide for all four stages](docs/build-order-and-contributions.md): HTML structure → CSS → UI JavaScript → PHP templates/data → protected native forms → REST enhancement. Frontend and backend tracks work in parallel around one complete membership journey. Record each person’s genuine work in the [contribution log template](docs/contribution-log.md), keeping the existing assisted application credited as baseline.
 
